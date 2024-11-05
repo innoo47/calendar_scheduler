@@ -12,6 +12,7 @@ class MainCalendar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TableCalendar(
+      locale: 'ko_kr',
       // 날짜 선택시 호출되는 함수
       onDaySelected: onDaySelected,
       // 선택된 날짜를 구분할 로직
